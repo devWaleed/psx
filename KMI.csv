@@ -1,0 +1,389 @@
+ABOT,0.37%,2.45%,1.56%,61.53%,(38.47),Compliant
+ACPL,28.57%,0.19%,0.06%,87.98%,(149.42),Compliant
+ADMM,43.19%,0.00%,0.01%,76.95%,(119.52),Non-Compliant
+AGHA,36.97%,0.00%,0.50%,78.92%,(26.04),Compliant
+AGIL,12.17%,0.84%,0.19%,78.98%,(39.78),Compliant
+AGL,65.62%,0.00%,0.43%,93.04%,(162.62),Non-Compliant
+AGP,4.79%,0.00%,0.29%,87.25%,(11.81),Compliant
+AGSML,21.14%,0.00%,100.00%,96.92%,(44.86),Non-Compliant1
+AGTL,8.06%,0.00%,0.36%,53.70%,(59.74),Compliant
+AIRLINK,36.99%,10.88%,0.17%,47.01%,(1.14),Compliant
+ALTN,0.92%,1.13%,14.75%,45.33%,34.45,Non-Compliant
+ANL,18.99%,0.65%,0.63%,62.58%,(11.01),Compliant
+APL,9.63%,23.29%,0.86%,53.14%,(33.75),Compliant
+ARPL,1.35%,0.00%,0.00%,48.21%,(64.61),Compliant1
+ASC,1.51%,0.00%,0.00%,54.50%,1.70,Compliant
+ASL,41.10%,0.00%,0.08%,73.07%,(23.44),Non-Compliant
+ASTL,41.93%,3.35%,0.00%,77.25%,(65.61),Non-Compliant
+ATBA,35.58%,1.44%,0.09%,80.31%,(163.18),Compliant
+ATLH,0.51%,12.65%,2.15%,43.76%,(18.54),Compliant1
+ATRL,0.11%,6.57%,1.33%,57.58%,(101.69),Compliant
+AVN,4.73%,0.36%,0.07%,8.19%,30.38,Compliant
+BCL,27.65%,0.00%,0.02%,71.57%,(50.36),Compliant
+BECO,0.02%,0.02%,0.00%,76.37%,(0.90),Compliant3
+BERG,13.24%,2.47%,0.08%,52.90%,(33.41),Compliant
+BGL,31.83%,0.00%,0.18%,98.34%,(6.56),Compliant
+BIFO,14.70%,6.38%,0.82%,72.94%,(0.87),Compliant
+BIPL,N/A,N/A,N/A,44.54%,(171.70),Compliant
+BNL,27.16%,0.00%,0.00%,81.77%,(18.87),Compliant
+BRR,N/A,N/A,N/A,97.05%,(6.95),Compliant
+BUXL,6.23%,0.00%,0.00%,50.24%,(57.20),Compliant
+BWCL,35.63%,18.98%,2.60%,77.07%,(116.92),Compliant
+BWHL,1.18%,28.87%,3.85%,65.29%,35.12,Compliant
+CEPB,32.26%,0.00%,0.02%,75.86%,(64.60),Compliant
+CHCC,13.91%,0.01%,0.04%,92.17%,(88.86),Compliant
+CLOV,0.00%,7.10%,0.14%,29.27%,2.75,Compliant
+CLVL,0.43%,0.00%,2.93%,65.71%,2.36,Compliant
+CNERGY,41.70%,0.00%,0.75%,92.18%,(19.79),Non-Compliant
+COLG,4.29%,21.68%,1.25%,61.84%,13.57,Compliant
+CPHL,6.14%,22.31%,0.68%,54.68%,(1.28),Compliant
+CPPL,42.20%,0.22%,0.01%,74.85%,(171.57),Non-Compliant
+CRTM,37.85%,0.12%,0.05%,80.68%,(71.11),Compliant
+CSAP,14.20%,28.23%,1.57%,48.46%,21.85,Compliant
+CTM,35.14%,0.54%,0.05%,84.51%,(31.09),Compliant
+DAWH,34.49%,13.56%,4.52%,62.73%,(481.11),Compliant
+DCL,16.54%,0.00%,0.00%,93.56%,(33.57),Compliant
+DFML,185.84%,0.00%,0.00%,56.15%,(34.73),Non-Compliant
+DFSM,26.67%,0.00%,0.00%,94.41%,(15.35),Compliant
+DGKC,36.13%,10.41%,2.54%,83.11%,(107.91),Compliant
+DOL,12.22%,18.49%,0.28%,68.96%,(2.34),Compliant
+DSIL,0.00%,21.14%,0.48%,9.15%,2.09,Non-Compliant
+ECOP,52.13%,0.27%,0.01%,81.63%,(26.44),Non-Compliant
+EFERT,15.92%,8.16%,1.14%,73.26%,(46.04),Compliant
+ENGRO,34.34%,19.81%,4.77%,56.26%,(314.24),Compliant
+EPCL,16.74%,13.27%,1.34%,75.62%,(41.21),Compliant
+EPQL,25.72%,1.86%,9.06%,50.34%,2.91,Non-Compliant
+EXIDE,3.76%,0.00%,0.02%,72.96%,(330.24),Compliant1
+FABL,N/A,N/A,N/A,52.26%,(323.66),Compliant
+FATIMA,9.93%,2.19%,1.14%,72.73%,(26.16),Compliant
+FCCL,29.99%,0.68%,0.53%,91.12%,(20.77),Compliant
+FCEPL,7.54%,5.76%,0.25%,59.76%,(10.53),Compliant
+FECM,N/A,N/A,N/A,85.88%,(3.46),Compliant
+FECTC,35.06%,1.38%,0.22%,91.69%,(59.75),Compliant
+FEROZ,23.70%,7.35%,1.67%,75.43%,(94.43),Compliant
+FFBL,35.83%,12.41%,3.32%,54.54%,(50.20),Compliant
+FFC,22.01%,44.73%,12.74%,40.07%,(7.74),Non-Compliant
+FFL,55.92%,0.00%,1.37%,67.31%,(3.49),Non-Compliant
+FHAM,N/A,N/A,N/A,97.44%,(73.79),Compliant
+FLYNG,19.91%,0.00%,0.00%,94.95%,(11.95),Compliant
+FPJM,N/A,N/A,N/A,76.46%,(44.47),Compliant3
+FUDLM,N/A,N/A,N/A,86.44%,0.79,Compliant
+FZCM,34.53%,0.77%,0.02%,85.49%,(1221.67),Compliant
+GATM,44.14%,0.05%,0.05%,79.38%,(106.84),Non-Compliant
+GEMUNSL,4.12%,4.54%,2.00%,34.92%,17.02,Compliant
+GGGL,16.91%,0.00%,0.05%,79.18%,(4.62),Compliant
+GGL,14.54%,6.30%,0.43%,63.68%,0.70,Compliant
+GHGL,0.16%,0.00%,0.00%,77.42%,(5.88),Compliant
+GHNI,17.63%,0.00%,0.51%,65.85%,(122.57),Compliant
+GHNL,16.46%,0.00%,1.17%,73.87%,(78.69),Compliant
+GLAXO,0.17%,0.00%,1.71%,61.00%,(1.97),Compliant
+GTYR,40.88%,0.00%,0.00%,72.05%,(66.78),Non-Compliant
+GVGL,0.00%,0.00%,0.33%,76.21%,(5.55),Compliant
+GWLC,5.72%,0.00%,1.39%,87.77%,(15.68),Compliant
+HABSM,0.13%,34.83%,2.07%,61.12%,8.32,Non-Compliant1
+HALEON,1.03%,6.41%,0.93%,58.36%,(14.93),Compliant
+HCAR,1.73%,10.33%,1.88%,56.81%,(151.79),Compliant1
+HINOON,5.85%,10.69%,1.32%,59.03%,28.34,Compliant
+HTL,37.65%,1.82%,0.25%,84.21%,(35.46),Compliant
+HUBC,35.45%,24.23%,4.50%,40.10%,(9.53),Compliant
+ICL,20.29%,0.25%,0.10%,70.60%,(40.89),Compliant
+IDYM,53.00%,1.09%,0.22%,74.08%,(532.94),Non-Compliant
+ILP,34.81%,0.48%,0.03%,70.31%,(43.33),Compliant
+SEARL,7.51%,0.20%,0.05%,59.19%,(9.76),Compliant
+IMAGE,5.62%,0.00%,0.00%,77.13%,(1.60),Compliant
+INDU,0.25%,41.63%,6.44%,31.63%,79.96,Non-Compliant
+INIL,23.70%,0.00%,0.05%,84.38%,(278.99),Compliant
+ISL,22.22%,0.00%,0.03%,87.17%,(57.10),Compliant
+ITTEFAQ,15.42%,0.00%,0.12%,58.86%,(9.77),Compliant
+JSML,8.14%,0.16%,0.00%,95.84%,(81.70),Compliant1
+KAPCO,12.29%,20.74%,15.02%,39.31%,26.79,Non-Compliant
+KASBM,N/A,N/A,N/A,88.83%,(1.25),Compliant
+KEL,23.29%,2.74%,0.49%,47.28%,(10.82),Compliant
+KOHC,8.17%,25.50%,2.15%,69.28%,(8.92),Compliant
+KOHE,23.63%,0.00%,0.81%,38.85%,10.00,Compliant
+KOHP,0.00%,0.02%,3.84%,66.36%,3.36,Compliant
+KOIL,0.00%,1.06%,52.88%,87.48%,3.05,Non-Compliant
+KOSM,119.84%,0.00%,0.00%,86.64%,(20.06),Non-Compliant
+KSBP,27.74%,0.00%,0.47%,40.38%,(23.28),Compliant
+KTML,29.64%,1.45%,0.45%,88.95%,(165.21),Compliant
+LCI,24.34%,0.00%,0.02%,62.56%,(70.74),Compliant
+LOADS,38.79%,0.07%,0.07%,75.80%,(12.76),Non-Compliant
+LOTCHEM,5.35%,27.58%,1.46%,40.05%,3.74,Compliant
+LPL,13.60%,0.02%,2.10%,33.61%,26.96,Compliant
+LUCK,31.14%,1.83%,0.50%,78.31%,(585.02),Compliant
+MACFL,0.00%,0.00%,0.00%,72.27%,(20.78),Compliant
+MARI,0.38%,8.31%,3.14%,53.46%,287.70,Compliant
+MEBL,N/A,N/A,N/A,93.38%,(1280.66),Compliant
+MERIT,36.70%,0.00%,0.00%,63.99%,(10.13),Compliant
+META,0.00%,0.00%,0.00%,98.22%,(40.16),Compliant
+MFFL,28.33%,0.00%,0.01%,73.39%,(46.07),Compliant
+MFL,54.56%,0.01%,0.12%,85.58%,(75.26),Non-Compliant
+MLCF,22.30%,0.84%,0.06%,92.87%,(33.11),Compliant
+MODAM,N/A,N/A,N/A,97.32%,(1.37),Compliant
+MRNS,38.53%,3.27%,0.13%,89.48%,(52.07),Non-Compliant1
+MTL,33.90%,0.00%,0.41%,73.31%,(121.90),Compliant
+MUGHAL,23.47%,0.00%,0.09%,76.25%,(60.83),Compliant
+NAGC,44.24%,9.41%,1.05%,67.19%,(180.04),Non-Compliant
+NATF,39.63%,5.18%,0.10%,77.28%,(62.96),Non-Compliant
+NCL,57.08%,0.08%,0.05%,79.76%,(154.79),Non-Compliant
+NCPL,4.74%,1.17%,4.55%,41.62%,27.03,Compliant
+NETSOL,9.58%,0.00%,0.30%,17.97%,66.67,Compliant
+NML,32.19%,12.68%,1.86%,67.43%,(54.51),Compliant
+NPL,2.91%,0.06%,5.52%,40.34%,46.35,Non-Compliant
+NRL,18.98%,0.00%,0.01%,73.22%,(468.08),Compliant
+NRSL,44.09%,0.00%,0.00%,54.47%,(1.69),Non-Compliant
+OBOY,0.00%,0.00%,0.00%,5.33%,3.80,Compliant
+OCTOPUS,0.00%,0.00%,9.24%,5.82%,14.05,Non-Compliant
+OGDC,0.00%,18.43%,6.44%,25.63%,149.26,Compliant
+OLPM,N/A,N/A,N/A,90.60%,(108.12),Compliant
+OTSU,39.53%,0.00%,0.11%,60.91%,(47.81),Non-Compliant
+PABC,22.57%,1.93%,1.38%,73.93%,(12.39),Compliant
+PACE,83.65%,0.00%,1.21%,83.66%,(22.00),Non-Compliant
+PAEL,30.00%,0.04%,0.00%,60.10%,(1.82),Compliant
+PAKD,4.30%,7.60%,1.73%,10.17%,77.30,Compliant
+PAKOXY,41.17%,0.00%,0.02%,79.08%,(102.75),Non-Compliant
+PCAL,40.89%,0.00%,0.00%,74.65%,(167.07),Non-Compliant
+PHDL,0.00%,0.00%,0.32%,98.17%,(13.26),Compliant
+PIAA,136.97%,0.00%,0.37%,82.81%,(144.43),Non-Compliant
+PIBTL,25.91%,0.00%,0.19%,86.96%,(6.29),Compliant
+PICT,0.00%,0.00%,0.73%,14.91%,8.51,Compliant
+PIOC,21.35%,0.00%,0.03%,95.10%,(160.92),Compliant
+PKGP,2.28%,0.02%,2.85%,30.62%,45.78,Compliant
+PKGS,35.71%,4.27%,0.52%,78.16%,(761.95),Compliant
+PMI,N/A,N/A,N/A,81.48%,(0.26),Compliant
+PNSC,3.99%,13.82%,2.42%,62.13%,83.98,Compliant
+POL,0.00%,13.57%,10.06%,27.46%,67.81,Non-Compliant
+POWER,14.77%,4.17%,0.86%,81.38%,(20.88),Compliant
+PPL,0.00%,10.29%,3.40%,26.22%,110.16,Compliant
+PREMA,9.67%,0.00%,0.03%,87.05%,(6.05),Compliant
+PRET,45.12%,0.00%,0.00%,78.69%,(2021.65),Non-Compliant
+PRL,26.51%,27.42%,0.05%,60.36%,(41.75),Compliant
+PSMC,11.20%,0.00%,1.15%,44.55%,(355.64),Compliant
+PSO,33.23%,0.00%,0.47%,40.18%,(317.49),Compliant
+PSX,2.93%,44.61%,17.79%,45.81%,5.45,Non-Compliant
+PTC,55.37%,21.87%,3.99%,50.14%,(65.03),Non-Compliant
+PTL,35.92%,0.00%,0.07%,72.60%,(45.39),Compliant
+QUICE,0.00%,0.00%,0.18%,85.60%,(5.59),Compliant
+REWM,53.92%,5.73%,0.02%,74.73%,(485.38),Non-Compliant
+RPL,6.38%,0.00%,0.36%,70.37%,(2.16),Compliant
+RUPL,23.28%,0.00%,0.07%,91.15%,(107.13),Compliant
+SAZEW,0.01%,0.00%,0.00%,71.51%,(90.53),Compliant
+SEPL,0.40%,38.33%,9.50%,41.59%,55.82,Non-Compliant
+SGABL,8.16%,0.00%,0.00%,97.38%,(17.28),Compliant
+SGF,24.81%,0.00%,4.54%,57.46%,(10.19),Compliant
+SGPL,0.00%,0.00%,0.00%,59.84%,0.10,Compliant
+SHEL,6.55%,0.00%,0.09%,73.87%,(282.95),Compliant
+SHEZ,32.84%,0.00%,0.05%,81.46%,(187.91),Compliant
+SHFA,4.23%,4.46%,0.49%,71.98%,(29.88),Compliant
+SIEM,0.49%,7.68%,0.15%,11.05%,561.57,Non-Compliant1
+SITC,0.00%,0.00%,0.00%,81.16%,(511.78),Compliant
+IBLHL,3.07%,0.00%,0.00%,45.09%,6.42,Compliant
+SMCPL,0.00%,0.00%,0.04%,49.18%,(1.71),Compliant
+SNGP,25.13%,0.00%,0.89%,24.47%,(371.96),Compliant3
+SPEL,12.98%,3.72%,0.02%,81.11%,(2.69),Compliant
+SPL,10.15%,0.00%,0.20%,77.89%,(19.73),Compliant
+SPWL,40.05%,22.61%,0.05%,37.47%,4.83,Non-Compliant
+SRVI,51.00%,0.36%,0.24%,77.64%,(886.50),Non-Compliant
+SSGC,14.70%,0.08%,1.04%,22.75%,(188.44),Compliant3
+SSML,38.24%,0.00%,0.00%,82.91%,(47.00),Non-Compliant
+STCL,21.03%,7.35%,0.50%,85.02%,(19.54),Compliant
+STJT,33.45%,0.00%,0.01%,71.59%,(139.97),Compliant
+STML,0.09%,1.86%,0.22%,61.12%,(24.96),Compliant
+STPL,33.33%,3.63%,0.52%,70.82%,(5.32),Compliant
+SYS,14.75%,2.00%,0.25%,42.46%,22.91,Compliant
+TELE,12.75%,0.00%,0.64%,16.37%,9.06,Compliant
+TGL,24.43%,0.51%,0.06%,86.74%,(42.73),Compliant
+THALL,8.51%,15.98%,4.46%,66.70%,69.47,Compliant
+THCCL,13.37%,9.68%,1.04%,62.13%,(0.39),Compliant
+TOMCL,11.61%,0.00%,0.01%,46.17%,9.36,Compliant
+TOWL,0.27%,2.25%,1.97%,64.68%,47.21,Compliant
+TPL,23.41%,7.59%,3.53%,64.35%,(19.71),Compliant
+TPLP,5.32%,2.78%,1.47%,85.44%,1.16,Compliant
+TPLT,27.59%,0.00%,5.43%,59.02%,(11.13),Non-Compliant
+TREET,23.53%,0.34%,0.01%,84.60%,(67.26),Compliant
+TRG,0.00%,99.98%,100.00%,0.00%,113.76,Non-Compliant
+TSPL,0.00%,34.23%,11.57%,5.08%,12.16,Non-Compliant
+UCAPM,N/A,N/A,N/A,99.78%,(0.17),Compliant
+UNITY,9.86%,4.44%,0.57%,48.99%,(13.78),Compliant
+WAVES,30.11%,0.00%,0.31%,70.79%,(15.63),Compliant
+WHALE,41.70%,0.00%,0.01%,72.14%,(152.08),Non-Compliant
+WTL,35.07%,0.26%,3.75%,67.56%,(6.10),Compliant
+YOUW,40.10%,0.00%,0.00%,64.88%,(8.13),Non-Compliant
+AHL,N/A,N/A,N/A,N/A,N/A,NC by nature
+BOK,N/A,N/A,N/A,N/A,N/A,NC by nature
+DEL,N/A,N/A,N/A,N/A,N/A,NC by nature
+ESBL,N/A,N/A,N/A,N/A,N/A,NC by nature
+FCSC,N/A,N/A,N/A,N/A,N/A,NC by nature
+FDIBL,N/A,N/A,N/A,N/A,N/A,NC by nature
+FNEL,N/A,N/A,N/A,N/A,N/A,NC by nature
+HIFA,N/A,N/A,N/A,N/A,N/A,NC by nature
+HUMNL,N/A,N/A,N/A,N/A,N/A,NC by nature
+ICIBL,N/A,N/A,N/A,N/A,N/A,NC by nature
+JSCL,N/A,N/A,N/A,N/A,N/A,NC by nature
+MDTL,N/A,N/A,N/A,N/A,N/A,NC by nature
+NEXT,N/A,N/A,N/A,N/A,N/A,NC by nature
+OLPL,N/A,N/A,N/A,N/A,N/A,NC by nature
+AABS,63.30%,18.60%,2.28%,51.24%,(11.27),Non-Compliant1
+ADAMS,7.22%,0.37%,0.13%,91.51%,(138.37),Compliant1
+ADOS,3.13%,0.00%,0.06%,10.89%,12.75,Non-Compliant3
+AHCL,26.96%,15.65%,8.46%,67.61%,(2.62),Non-Compliant
+AHTM,20.20%,0.28%,0.05%,85.88%,(112.83),Compliant
+AKGL,29.20%,0.00%,0.06%,77.33%,(18.41),Compliant
+ALNRS,22.96%,2.28%,0.60%,84.89%,(349.23),Compliant1
+ANTM,39.93%,0.00%,0.00%,87.17%,(100.96),Non-Compliant
+ARCTM,0.00%,0.00%,0.01%,87.20%,(28.46),Compliant
+ARM,N/A,N/A,N/A,77.32%,(6.70),Compliant
+ARUJ,48.00%,0.00%,0.00%,61.52%,(4.39),Non-Compliant
+ASHT,0.00%,6.05%,2.99%,77.41%,0.78,Compliant
+ASTM,0.00%,0.00%,3.44%,73.18%,(31.69),Compliant
+AWTX,69.04%,0.37%,0.00%,84.61%,(2169.83),Non-Compliant
+AWWAL,N/A,N/A,N/A,61.93%,4.22,Compliant
+BAFS,26.82%,0.00%,0.26%,89.94%,(156.18),Compliant1
+BATA,27.89%,3.64%,0.70%,67.09%,(699.76),Compliant
+BFMOD,N/A,N/A,N/A,85.99%,1.74,Compliant
+BHAT,60.88%,26.71%,0.28%,62.18%,(3174.55),Non-Compliant
+BNWM,5.78%,0.00%,0.00%,86.64%,(10.80),Compliant
+BPL,20.83%,0.00%,0.01%,75.57%,(25.38),Compliant
+BTL,40.85%,20.95%,0.19%,63.65%,(828.35),Non-Compliant
+CCM,10.00%,0.22%,0.25%,79.47%,(20.53),Compliant
+CFL,12.76%,0.45%,0.12%,62.58%,(17.46),Compliant
+CHAS,35.48%,0.00%,0.04%,92.13%,(324.62),Compliant1
+DAAG,23.20%,0.00%,0.00%,55.62%,(0.76),Compliant
+DADX,15.68%,0.00%,0.00%,39.60%,(3.86),Compliant
+DIIL,15.70%,8.89%,0.29%,72.43%,(4.05),Compliant
+DINT,9.79%,0.00%,0.00%,76.09%,(310.96),Compliant
+DLL,41.33%,0.04%,1.03%,41.75%,(70.90),Non-Compliant
+DYNO,13.03%,0.00%,0.04%,53.90%,17.47,Compliant
+ELCM,0.00%,0.00%,0.02%,84.02%,(76.49),Compliant
+ELSM,48.90%,8.42%,0.21%,66.91%,(321.67),Non-Compliant
+EMCO,27.61%,0.00%,0.00%,74.40%,(26.16),Compliant
+FANM,N/A,N/A,N/A,51.33%,4.94,Non-Compliant
+FASM,45.05%,12.25%,1.27%,57.59%,(543.38),Non-Compliant
+FCONM,No Financial available on PSX portal,,,,,No Opinion
+FEM,N/A,N/A,N/A,80.95%,1.29,Compliant
+FFLM,N/A,N/A,N/A,93.03%,(0.37),Compliant
+FIBLM,N/A,N/A,N/A,33.51%,5.57,Compliant
+FIMM,N/A,N/A,N/A,76.30%,(234.65),Compliant
+FML,29.83%,0.00%,0.10%,71.83%,(50.21),Compliant
+FPRM,N/A,N/A,N/A,52.24%,(1.52),Compliant
+FRCL,8.93%,0.00%,0.10%,77.82%,(38.42),Compliant
+FRSM,7.15%,0.00%,0.06%,83.68%,(172.32),Compliant1
+FTMM,N/A,N/A,N/A,82.85%,(6.01),Compliant
+FTSM,N/A,N/A,N/A,59.91%,2.87,Compliant
+GADT,38.69%,9.22%,0.64%,81.90%,(827.83),Non-Compliant
+GAMON,0.00%,0.12%,0.07%,75.02%,(0.07),Compliant
+GATI,20.26%,0.00%,0.00%,77.11%,(483.76),Compliant
+GCIL,16.44%,8.46%,5.86%,54.19%,2.58,Non-Compliant
+GEMPAPL,19.05%,0.00%,0.26%,72.60%,0.91,Compliant
+GEMSPNL,7.08%,0.00%,0.11%,26.83%,7.07,Compliant
+GFIL,42.60%,0.00%,0.00%,79.78%,(31.21),Non-Compliant
+GIL,0.00%,0.00%,0.00%,92.60%,(352.71),Compliant
+GLPL,0.07%,0.14%,1.23%,30.63%,(5.95),Compliant
+GOC,0.00%,4.69%,0.04%,57.37%,24.57,Compliant
+HAEL,25.77%,0.00%,0.13%,67.96%,(3.48),Compliant
+HAFL,0.00%,0.40%,0.00%,97.19%,(6.43),Compliant
+HINO,0.07%,0.00%,1.41%,72.50%,(70.66),Compliant
+HMM,N/A,N/A,N/A,52.43%,4.80,Compliant
+HRPL,0.68%,16.84%,1.29%,65.54%,0.96,Compliant
+HUSI,43.08%,0.00%,86.93%,96.84%,(91.81),Compliant
+IBFL,12.43%,0.02%,0.22%,85.00%,(51.96),Compliant
+IDRT,43.48%,2.64%,0.32%,56.22%,(50.56),Non-Compliant
+IDSM,43.71%,0.00%,0.00%,75.10%,(236.37),Non-Compliant
+INKL,36.06%,5.93%,0.28%,40.38%,(0.40),Compliant
+ISIL,55.10%,6.91%,0.27%,69.66%,(490.09),Non-Compliant
+JATM,0.00%,0.04%,22.82%,71.51%,(11.22),Non-Compliant
+JDMT,16.11%,0.00%,0.00%,95.57%,(388.23),Compliant
+JDWS,45.65%,0.00%,0.45%,87.34%,(499.91),Non-Compliant1
+JKSM,37.93%,0.10%,0.04%,83.23%,(73.56),Non-Compliant
+JOPP,0.00%,0.00%,0.00%,96.51%,(63.53),Compliant
+JVDC,19.87%,0.15%,2.80%,81.47%,(25.58),Compliant
+KCL,4.90%,0.00%,0.01%,95.00%,(13.03),Compliant
+KHYT,0.00%,0.00%,0.00%,98.77%,(29.91),Compliant
+KML,43.23%,2.44%,0.22%,74.53%,(161.32),Non-Compliant
+KOHTM,34.26%,0.06%,0.01%,84.79%,(139.67),Compliant
+KPUS,42.64%,0.00%,0.00%,89.33%,(300.10),Non-Compliant3
+LEUL,0.00%,0.00%,5.00%,61.71%,0.74,Compliant
+LPGL,15.91%,0.00%,0.00%,93.77%,(132.24),Compliant
+MACTER,2.10%,0.00%,0.06%,72.87%,(20.72),Compliant
+MEHT,60.47%,0.78%,0.08%,78.10%,(1437.07),Non-Compliant
+MIRKS,47.65%,0.02%,0.73%,89.68%,(393.31),Non-Compliant1
+MQTM,41.53%,0.12%,0.00%,78.14%,(222.49),Non-Compliant
+MSCL,2.67%,0.84%,0.14%,90.77%,(0.22),Compliant
+MSOT,43.97%,0.00%,0.09%,65.62%,(191.03),Non-Compliant
+NATM,34.56%,0.00%,0.00%,66.61%,(111.81),Compliant
+NESTLE,18.58%,0.00%,0.02%,74.58%,(1248.41),Compliant
+NICL,65.49%,0.00%,0.01%,70.27%,(141.99),Non-Compliant
+NONS,42.33%,0.00%,0.02%,67.69%,(82.98),Non-Compliant1
+NSRM,4.50%,0.02%,0.00%,64.09%,(6.62),Compliant
+OML,29.56%,4.72%,2.94%,87.80%,(34.74),Compliant
+ORM,N/A,N/A,N/A,66.44%,(4.28),Compliant
+PAKL,221.17%,0.00%,0.00%,73.91%,(83.96),Non-Compliant
+PAKMI,N/A,N/A,N/A,82.21%,(3.37),Compliant
+PIM,N/A,N/A,N/A,91.34%,(0.68),Compliant
+PMRS,34.10%,0.09%,0.06%,92.01%,(3510.24),Compliant1
+POML,17.79%,0.00%,0.07%,66.76%,(52.57),Compliant
+PPP,17.40%,0.00%,0.00%,76.15%,(26.00),Compliant
+PRWM,54.01%,3.23%,0.09%,72.92%,(16.66),Non-Compliant
+PSEL,16.01%,2.62%,0.41%,64.06%,24.78,Compliant
+PSYL,18.64%,0.00%,0.04%,81.77%,(37.43),Compliant
+QUET,28.52%,0.75%,0.56%,93.15%,(821.71),Compliant
+RCML,19.18%,0.46%,4.12%,80.79%,(264.42),Compliant
+REDCO,38.34%,0.00%,0.00%,82.36%,(32.85),Non-Compliant
+RMPL,6.88%,10.33%,0.67%,75.78%,(2565.94),Compliant
+SAIF,60.66%,0.14%,0.01%,79.69%,(282.67),Non-Compliant
+SANSM,14.72%,0.00%,0.03%,94.33%,(256.77),Compliant1
+SAPL,6.22%,0.00%,0.01%,52.92%,(155.11),Compliant
+SAPT,54.66%,3.61%,0.75%,73.98%,(2728.79),Non-Compliant
+SARC,21.68%,0.00%,0.00%,42.69%,14.95,Compliant
+SASML,25.17%,0.00%,0.26%,92.18%,(227.67),Compliant1
+SCL,4.28%,0.00%,0.00%,86.38%,(404.77),Compliant
+SEL,40.28%,0.00%,0.00%,60.12%,(46.55),Non-Compliant
+SERT,3.18%,0.00%,0.00%,92.97%,(17.14),Compliant
+SFL,24.62%,5.59%,1.46%,62.39%,(67.90),Compliant
+SHCM,49.93%,14.93%,1.45%,76.19%,(33.85),Non-Compliant
+SHDT,34.20%,0.00%,0.01%,76.93%,(42.13),Compliant
+SHJS,49.16%,0.00%,0.17%,92.23%,(306.04),Non-Compliant1
+SHSML,24.20%,0.00%,0.16%,79.55%,(206.81),Compliant1
+SINDM,N/A,N/A,N/A,95.58%,0.77,Compliant
+SML,7.99%,0.20%,0.03%,89.79%,(97.86),Compliant
+SNAI,12.50%,0.00%,0.12%,52.41%,(63.18),Compliant
+SSOM,8.96%,0.00%,0.08%,43.55%,117.93,Non-Compliant
+SURC,27.36%,0.54%,0.20%,88.97%,(175.15),Compliant
+SUTM,22.36%,1.24%,2.09%,73.10%,(3.15),Compliant
+SZTM,19.43%,0.60%,0.12%,83.55%,(75.30),Compliant
+TATM,40.19%,3.97%,1.78%,77.88%,(227.38),Non-Compliant
+TCORP,15.94%,0.02%,0.02%,91.36%,(80.30),Compliant1
+TICL,23.17%,0.76%,0.40%,75.60%,(303.38),Compliant
+TRIPF,46.17%,0.00%,0.02%,67.73%,(160.44),Non-Compliant
+TRSM,N/A,N/A,N/A,90.86%,(1.25),Compliant
+TSML,37.96%,0.00%,0.01%,77.21%,(115.22),Non-Compliant1
+UBDL,19.69%,0.00%,0.21%,30.80%,(4.09),Compliant
+UDPL,11.77%,0.00%,0.00%,73.48%,(0.52),Compliant
+UPFL,3.90%,25.96%,1.93%,19.75%,540.47,Non-Compliant
+WAHN,23.52%,0.10%,0.02%,38.50%,51.55,Compliant
+ZAHID,26.70%,0.42%,0.00%,69.66%,(16.43),Compliant
+ZIL,5.62%,0.00%,0.09%,59.35%,(95.08),Compliant
+ZTL,29.84%,0.63%,0.05%,74.19%,(30.16),Compliant
+786,N/A,N/A,N/A,N/A,N/A,NC by nature
+AKDSL,N/A,N/A,N/A,N/A,N/A,NC by nature
+AMBL,N/A,N/A,N/A,N/A,N/A,NC by nature
+ARPAK,N/A,N/A,N/A,N/A,N/A,NC by nature
+ASLCPS,N/A,N/A,N/A,N/A,N/A,NC by nature
+ASLPS,N/A,N/A,N/A,N/A,N/A,NC by nature
+CASH,N/A,N/A,N/A,N/A,N/A,NC by nature
+EFGH,N/A,N/A,N/A,N/A,N/A,NC by nature
+EPCLPS,N/A,N/A,N/A,N/A,N/A,NC by nature
+FCIBL,N/A,N/A,N/A,N/A,N/A,NC by nature
+GCILB,N/A,N/A,N/A,N/A,N/A,NC by nature
+HCL,N/A,N/A,N/A,N/A,N/A,NC by nature
+HGFA,N/A,N/A,N/A,N/A,N/A,NC by nature
+IML,N/A,N/A,N/A,N/A,N/A,NC by nature
+JSGCL,N/A,N/A,N/A,N/A,N/A,NC by nature
+JSIL,N/A,N/A,N/A,N/A,N/A,NC by nature
+MCBAH,N/A,N/A,N/A,N/A,N/A,NC by nature
+PELPS,N/A,N/A,N/A,N/A,N/A,NC by nature
+PIAB,N/A,N/A,N/A,N/A,N/A,NC by nature
+SIBL,N/A,N/A,N/A,N/A,N/A,NC by nature
+TCORPPS,N/A,N/A,N/A,N/A,N/A,NC by nature
+TSBL,N/A,N/A,N/A,N/A,N/A,NC by nature
+TSMF,N/A,N/A,N/A,N/A,N/A,NC by nature

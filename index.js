@@ -1,31 +1,43 @@
-const json = require("./data.json");
+import { makeCSVToArrayOnce } from "./functions.js";
 
-const data = json.data;
+let KMIArray = await makeCSVToArrayOnce();
+KMIArray = KMIArray.filter((x) => x.status === "Compliant");
 
-const KMIShares = data.filter((x) => x.listed_in.includes("KMIALLSHR"));
+KMIArray = KMIArray.map((x) => {
+  let { debtToAssetRatio, nonCompliantInvestment, nonCompliantIncome } = x;
 
-const finalArray = KMIShares.map((obj) => {
-  console.log("obj", obj);
+  if (debtToAssetRatio === 0) {
+    debtToAssetRatio = 0.01;
+  }
 
-  return obj;
+  if (nonCompliantInvestment === 0) {
+    nonCompliantInvestment = 0.01;
+  }
+
+  if (nonCompliantIncome === 0) {
+    nonCompliantIncome = 0.01;
+  }
+
+  return {
+    ...x,
+    score:
+      (1 / debtToAssetRatio) *
+        (1 / nonCompliantInvestment) *
+        (1 / nonCompliantIncome) || 0,
+  };
 });
 
-// const onlyDividendShares = KMIShares.filter((x) => x.dividend_per_share > 0);
+KMIArray.sort((a, b) => {
+  return a.score - b.score;
+});
 
-// const sortByDividend = onlyDividendShares.sort(
-//   (a, b) => b.dividend_yield_perc - a.dividend_yield_perc
-// );
-
-// sortByDividend.slice(0, 30).forEach((stock) => {
-//   console.log(
-//     stock.stock_symbol,
-//     stock.dividend_yield_perc,
-//     stock.dividend_per_share,
-//     stock.stock_current_price,
-//     stock.earning_per_share,
-//     stock.price_earning_ratio,
-//     stock.net_profit_margin_perc,
-//     stock.price_to_sale_ratio,
-//     stock.stock_sector_name
-//   );
-// });
+KMIArray.forEach((x) => {
+  console.log(
+    "x",
+    x.symbol,
+    x.score,
+    x.debtToAssetRatio,
+    x.nonCompliantInvestment,
+    x.nonCompliantIncome
+  );
+});

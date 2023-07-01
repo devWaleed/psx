@@ -1,0 +1,13 @@
+{
+  "name": "psx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "devWaleed",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^5.4.0"
+  },
+  "type": "module"
+}
