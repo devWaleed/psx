@@ -1,43 +1,29 @@
-import { makeCSVToArrayOnce } from "./functions.js";
+import { calculateScore, makeCSVToArrayOnce } from "./functions.js";
 
 let KMIArray = await makeCSVToArrayOnce();
-KMIArray = KMIArray.filter((x) => x.status === "Compliant");
 
-KMIArray = KMIArray.map((x) => {
-  let { debtToAssetRatio, nonCompliantInvestment, nonCompliantIncome } = x;
+// Calculate score
+KMIArray = calculateScore(KMIArray);
 
-  if (debtToAssetRatio === 0) {
-    debtToAssetRatio = 0.01;
-  }
+KMIArray = KMIArray.filter(
+  (x) => x.status === "Compliant" && !x.sector?.includes?.("BANKS")
+);
 
-  if (nonCompliantInvestment === 0) {
-    nonCompliantInvestment = 0.01;
-  }
-
-  if (nonCompliantIncome === 0) {
-    nonCompliantIncome = 0.01;
-  }
-
-  return {
-    ...x,
-    score:
-      (1 / debtToAssetRatio) *
-        (1 / nonCompliantInvestment) *
-        (1 / nonCompliantIncome) || 0,
-  };
-});
-
+// Sort based on score
 KMIArray.sort((a, b) => {
-  return a.score - b.score;
+  return b.score - a.score;
 });
 
-KMIArray.forEach((x) => {
+console.log("symbol \t score \t price \t yield");
+
+KMIArray.slice(0, 10).forEach((x) => {
   console.log(
-    "x",
     x.symbol,
     x.score,
-    x.debtToAssetRatio,
-    x.nonCompliantInvestment,
-    x.nonCompliantIncome
+    // x.debtToAssetRatio,
+    // x.nonCompliantInvestment,
+    // x.nonCompliantIncome,
+    x.currentPrice,
+    x.dividendYield
   );
 });
