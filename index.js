@@ -6,7 +6,11 @@ let KMIArray = await makeCSVToArrayOnce();
 KMIArray = calculateScore(KMIArray);
 
 KMIArray = KMIArray.filter(
-  (x) => x.status === "Compliant" && !x.sector?.includes?.("BANKS")
+  (x) =>
+    x.status === "Compliant" &&
+    !x.sector?.includes?.("BANKS") &&
+    x.currentPrice < 500 &&
+    x.score > 0
 );
 
 // Sort based on score
@@ -16,8 +20,9 @@ KMIArray.sort((a, b) => {
 
 console.log("symbol \t score \t price \t yield");
 
-KMIArray.slice(0, 10).forEach((x) => {
+KMIArray.slice(0, 100).forEach((x, index) => {
   console.log(
+    index + 1,
     x.symbol,
     x.score,
     // x.debtToAssetRatio,
