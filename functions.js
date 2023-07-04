@@ -24,9 +24,9 @@ export const makeCSVToArrayOnce = () => {
 
         KMIArray.push({
           symbol,
-          debtToAssetRatio: parseFloat(debtToAssetRatio) || 0,
-          nonCompliantInvestment: parseFloat(nonCompliantInvestment) || 0,
-          nonCompliantIncome: parseFloat(nonCompliantIncome) || 0,
+          debtToAssetRatio: parseFloat(debtToAssetRatio) || 0.1,
+          nonCompliantInvestment: parseFloat(nonCompliantInvestment) || 0.1,
+          nonCompliantIncome: parseFloat(nonCompliantIncome) || 0.1,
           status,
           currentPrice: stockData?.stock_current_price,
           dividendYield: parseFloat(stockData?.dividend_yield_perc) || 0,
@@ -43,11 +43,18 @@ export const makeCSVToArrayOnce = () => {
 
 export const calculateScore = (data) => {
   const weights = {
-    debtToAssetRatio: 0.05,
-    nonCompliantInvestment: 0.25,
-    nonCompliantIncome: 0.25,
-    dividendYield: 0.45,
+    debtToAssetRatio: 0.1,
+    nonCompliantInvestment: 0.1,
+    nonCompliantIncome: 0.3,
+    dividendYield: 0.4,
+    earningPerShare: 0.1,
   };
+
+  const negativeColumns = [
+    "debtToAssetRatio",
+    "nonCompliantInvestment",
+    "nonCompliantIncome",
+  ];
 
   const allowedColumns = Object.keys(weights);
 
@@ -85,8 +92,13 @@ export const calculateScore = (data) => {
         const value = obj[prop];
         const range = normalizationRanges[prop];
 
-        // Invert negative columns (non-beneficial criteria)
-        const normalizedValue = (value - range.min) / (range.max - range.min);
+        let normalizedValue = 0;
+
+        if (negativeColumns.includes(prop)) {
+          normalizedValue = range.min / value;
+        } else {
+          normalizedValue = value / range.max;
+        }
 
         normalizedValues[prop] = normalizedValue;
       }
@@ -94,7 +106,7 @@ export const calculateScore = (data) => {
 
     // Add all alternative criteria values to make total score
 
-    let score = 0;
+    let score = 1;
 
     for (const prop in obj) {
       if (
@@ -102,7 +114,7 @@ export const calculateScore = (data) => {
         weights.hasOwnProperty(prop) &&
         allowedColumns.includes(prop)
       ) {
-        score += Math.pow(normalizedValues[prop], weights[prop]);
+        score *= Math.pow(normalizedValues[prop], weights[prop]);
       }
     }
 
