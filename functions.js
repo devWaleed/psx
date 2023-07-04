@@ -41,42 +41,73 @@ export const makeCSVToArrayOnce = () => {
   });
 };
 
-export const calculateScore = (kmiArray) => {
-  return kmiArray.map((x) => {
-    let {
-      debtToAssetRatio,
-      nonCompliantInvestment,
-      nonCompliantIncome,
-      dividendYield,
-      currentPrice,
-      netProfitMargin,
-      earningPerShare,
-    } = x;
+export const calculateScore = (data) => {
+  const weights = {
+    debtToAssetRatio: 0.05,
+    nonCompliantInvestment: 0.25,
+    nonCompliantIncome: 0.25,
+    dividendYield: 0.45,
+  };
 
-    if (debtToAssetRatio === 0) {
-      debtToAssetRatio = 0.01;
+  const allowedColumns = Object.keys(weights);
+
+  const normalizationRanges = {};
+
+  // Find min and max of each criteria
+  for (const obj of data) {
+    for (const prop in obj) {
+      if (obj.hasOwnProperty(prop) && allowedColumns.includes(prop)) {
+        if (!normalizationRanges[prop]) {
+          normalizationRanges[prop] = { min: Infinity, max: -Infinity };
+        }
+
+        const value = obj[prop];
+
+        if (value < normalizationRanges[prop].min) {
+          normalizationRanges[prop].min = value;
+        }
+
+        if (value > normalizationRanges[prop].max) {
+          normalizationRanges[prop].max = value;
+        }
+      }
+    }
+  }
+
+  for (let i = 0; i < data.length; i++) {
+    const obj = data[i];
+
+    // Normalize the criterion values
+    const normalizedValues = {};
+
+    for (const prop in obj) {
+      if (obj.hasOwnProperty(prop) && allowedColumns.includes(prop)) {
+        const value = obj[prop];
+        const range = normalizationRanges[prop];
+
+        // Invert negative columns (non-beneficial criteria)
+        const normalizedValue = (value - range.min) / (range.max - range.min);
+
+        normalizedValues[prop] = normalizedValue;
+      }
     }
 
-    if (nonCompliantInvestment === 0) {
-      nonCompliantInvestment = 0.01;
+    // Add all alternative criteria values to make total score
+
+    let score = 0;
+
+    for (const prop in obj) {
+      if (
+        obj.hasOwnProperty(prop) &&
+        weights.hasOwnProperty(prop) &&
+        allowedColumns.includes(prop)
+      ) {
+        score += Math.pow(normalizedValues[prop], weights[prop]);
+      }
     }
 
-    if (nonCompliantIncome === 0) {
-      nonCompliantIncome = 0.01;
-    }
+    obj.score = score;
+  }
 
-    const score =
-      (1 / debtToAssetRatio) *
-      // (1 / nonCompliantInvestment) *
-      (1 / nonCompliantIncome) *
-      (1 / currentPrice) *
-      netProfitMargin *
-      earningPerShare *
-      dividendYield;
-
-    return {
-      ...x,
-      score: (score || 0).toFixed(0),
-    };
-  });
+  return data;
 };
