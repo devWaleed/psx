@@ -1,34 +1,38 @@
 import { calculateScore, makeCSVToArrayOnce } from "./functions.js";
 
-let KMIArray = await makeCSVToArrayOnce();
+const excludedStocks = ["BANKS", "MODARABAS", "COMMERCIAL BANKS"];
 
-// Calculate score
-KMIArray = calculateScore(KMIArray);
+let KMIArray = await makeCSVToArrayOnce();
 
 KMIArray = KMIArray.filter(
   (x) =>
     x.status === "Compliant" &&
-    !x.sector?.includes?.("BANKS") &&
-    x.currentPrice < 500 &&
-    x.score > 0
+    !excludedStocks.includes(x.sector) &&
+    x.dividendYield > 0
 );
+
+// Calculate score
+KMIArray = calculateScore(KMIArray);
 
 // Sort based on score
 KMIArray.sort((a, b) => {
   return b.score - a.score;
 });
 
-console.log("symbol \t score \t price \t yield");
+console.log(
+  "index | symbol | score | debt ratio | nc invest | nc income | div yield | sector"
+);
 
-KMIArray.slice(0, 100).forEach((x, index) => {
+KMIArray.slice(0, 15).forEach((x, index) => {
   console.log(
     index + 1,
     x.symbol,
-    x.score,
-    // x.debtToAssetRatio,
-    // x.nonCompliantInvestment,
-    // x.nonCompliantIncome,
-    x.currentPrice,
-    x.dividendYield
+    parseFloat(x.score).toFixed(2),
+    parseFloat(x.currentPrice).toFixed(2),
+    x.debtToAssetRatio,
+    x.nonCompliantInvestment,
+    x.nonCompliantIncome,
+    x.dividendYield,
+    x.sector
   );
 });
