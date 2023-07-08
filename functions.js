@@ -1,11 +1,16 @@
 import fs from "fs";
+import { readFile } from "fs/promises";
 import { parse } from "csv-parse";
-import SarmaayaData from "./Sarmaaya.js";
+
+const SarmaayaData = JSON.parse(
+  await readFile(new URL("./Sarmaaya.json", import.meta.url))
+);
 
 export const makeCSVToArrayOnce = () => {
   return new Promise((resolve, reject) => {
     const KMIArray = [];
 
+    const data = SarmaayaData.data;
     const file = fs.readFileSync("./KMI.csv", function (err, fileData) {});
 
     parse(file, { delimiter: "," }, function (err, rows) {
@@ -20,7 +25,7 @@ export const makeCSVToArrayOnce = () => {
           status,
         ] = value;
 
-        const stockData = SarmaayaData.find((x) => x.stock_symbol === symbol);
+        const stockData = data.find((x) => x.stock_symbol === symbol);
 
         KMIArray.push({
           symbol,
