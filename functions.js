@@ -51,7 +51,9 @@ export const calculateScore = (data) => {
     debtToAssetRatio: 0.1,
     nonCompliantInvestment: 0.1,
     nonCompliantIncome: 0.3,
-    dividendYield: 0.4,
+    dividendYield: 0.2,
+    earningPerShare: 0.1,
+    netProfitMargin: 0.1,
     earningPerShare: 0.1,
   };
 

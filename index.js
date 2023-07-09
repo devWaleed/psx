@@ -27,12 +27,19 @@ KMIArray.slice(0, 15).forEach((x, index) => {
   console.log(
     index + 1,
     x.symbol,
-    parseFloat(x.score).toFixed(2),
+    " | ",
+    parseFloat(x.score).toFixed(4),
     parseFloat(x.currentPrice).toFixed(2),
+    " | ",
     x.debtToAssetRatio,
     x.nonCompliantInvestment,
     x.nonCompliantIncome,
+    " | ",
+    x.netProfitMargin,
+    x.earningPerShare,
+    " | ",
     x.dividendYield,
+    " | ",
     x.sector
   );
 });
