@@ -20,7 +20,7 @@ KMIArray.sort((a, b) => {
 });
 
 console.log(
-  "index | symbol | score | debt ratio | nc invest | nc income | div yield | sector"
+  "index | symbol | score / current price | debt ratio / nc invest / nc income | profit margin / eps | div yield | sector"
 );
 
 KMIArray.slice(0, 15).forEach((x, index) => {
