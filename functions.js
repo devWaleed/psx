@@ -29,9 +29,9 @@ export const makeCSVToArrayOnce = () => {
 
         KMIArray.push({
           symbol,
-          debtToAssetRatio: parseFloat(debtToAssetRatio) || 0.1,
-          nonCompliantInvestment: parseFloat(nonCompliantInvestment) || 0.1,
-          nonCompliantIncome: parseFloat(nonCompliantIncome) || 0.1,
+          debtToAssetRatio: parseFloat(debtToAssetRatio) || 0.001,
+          nonCompliantInvestment: parseFloat(nonCompliantInvestment) || 0.001,
+          nonCompliantIncome: parseFloat(nonCompliantIncome) || 0.001,
           status,
           currentPrice: stockData?.stock_current_price,
           dividendYield: parseFloat(stockData?.dividend_yield_perc) || 0,
@@ -48,14 +48,17 @@ export const makeCSVToArrayOnce = () => {
 
 export const calculateScore = (data) => {
   const weights = {
-    debtToAssetRatio: 0.1,
-    nonCompliantInvestment: 0.1,
-    nonCompliantIncome: 0.3,
-    dividendYield: 0.2,
-    earningPerShare: 0.1,
-    netProfitMargin: 0.1,
-    earningPerShare: 0.1,
+    debtToAssetRatio: 10,
+    nonCompliantInvestment: 10,
+    nonCompliantIncome: 30,
+    dividendYield: 20,
+    earningPerShare: 10,
+    netProfitMargin: 20,
   };
+
+  let sum = Object.keys(weights).reduce((a, b) => a + weights[b], 0);
+
+  console.log("Sum of Weights: ", sum);
 
   const negativeColumns = [
     "debtToAssetRatio",
@@ -121,7 +124,7 @@ export const calculateScore = (data) => {
         weights.hasOwnProperty(prop) &&
         allowedColumns.includes(prop)
       ) {
-        score *= Math.pow(normalizedValues[prop], weights[prop]);
+        score *= Math.pow(normalizedValues[prop], weights[prop] / 100);
       }
     }
 
