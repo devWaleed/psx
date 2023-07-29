@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "timeseries": "node timeseries/index.js"
+  },
   "author": "devWaleed",
   "license": "MIT",
   "dependencies": {
-    "csv-parse": "^5.4.0"
+    "csv-parse": "^5.4.0",
+    "date-fns": "^2.30.0"
   },
   "type": "module"
 }
